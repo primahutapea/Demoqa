@@ -1,0 +1,240 @@
+2025-11-15 15:02:30.035 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Prima_Hutapea\.katalon\packages\KS-10.2.1\configuration\org.eclipse.osgi\128\0\.cp\resources\logback\logback-execution.xml
+2025-11-15 15:02:30.039 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Prima_Hutapea\Katalon Studio\demoqa.com\Include\config\log.properties
+2025-11-15 15:02:30.193 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/DDT demoqa
+2025-11-15 15:02:30.279 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = primahutapea26
+2025-11-15 15:02:30.280 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = demoqa.com
+2025-11-15 15:02:30.280 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Prima_Hutapea - KitaDalamBahaya-TPE14
+2025-11-15 15:02:30.281 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-15 15:02:30.281 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.110
+2025-11-15 15:02:30.282 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2025-11-15 15:02:30.924 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-15 15:02:30.924 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Valid Input 1
+2025-11-15 15:02:30.997 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstname = Prima
+2025-11-15 15:02:30.998 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastname = Hutapea
+2025-11-15 15:02:30.998 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = primahutapea@gmail.com
+2025-11-15 15:02:30.999 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = Male
+2025-11-15 15:02:30.999 INFO  c.k.katalon.core.main.TestCaseExecutor   - mobile = 1234567890
+2025-11-15 15:02:31.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - dateofbirth = 26 Oct 1998
+2025-11-15 15:02:31.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - subjects = Maths
+2025-11-15 15:02:31.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - hobbies = Sports
+2025-11-15 15:02:31.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - picture = C:\Users\Prima_Hutapea\Katalon Studio\demoqa.com\Data Files\Take Home Test_updated.pdf
+2025-11-15 15:02:31.001 INFO  c.k.katalon.core.main.TestCaseExecutor   - currentaddress = Jl. A
+2025-11-15 15:02:31.001 INFO  c.k.katalon.core.main.TestCaseExecutor   - state = NCR
+2025-11-15 15:02:31.004 INFO  c.k.katalon.core.main.TestCaseExecutor   - city = Delhi
+2025-11-15 15:02:31.439 DEBUG testcase.Valid Input 1                   - 1: openBrowser("")
+2025-11-15 15:02:31.685 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-11-15 15:02:31.747 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 15, 2025 3:02:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-15 15:02:33.636 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cd3505ceee2d09c0857876928efd660a
+2025-11-15 15:02:33.637 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.60
+2025-11-15 15:02:33.638 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-15 15:02:33.638 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-15 15:02:33.650 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-15 15:02:33.698 DEBUG testcase.Valid Input 1                   - 2: maximizeWindow()
+2025-11-15 15:02:33.773 DEBUG testcase.Valid Input 1                   - 3: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-15 15:02:42.456 DEBUG testcase.Valid Input 1                   - 4: verifyTextPresent("Practice Form", false)
+2025-11-15 15:02:44.092 DEBUG testcase.Valid Input 1                   - 5: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName"), firstname)
+2025-11-15 15:02:44.992 DEBUG testcase.Valid Input 1                   - 6: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName"), lastname)
+2025-11-15 15:02:45.674 DEBUG testcase.Valid Input 1                   - 7: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail"), email)
+2025-11-15 15:02:46.377 DEBUG testcase.Valid Input 1                   - 8: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label"))
+2025-11-15 15:02:46.731 DEBUG testcase.Valid Input 1                   - 9: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber"), mobile)
+2025-11-15 15:02:47.415 DEBUG testcase.Valid Input 1                   - 10: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"), dateofbirth)
+2025-11-15 15:02:48.451 DEBUG testcase.Valid Input 1                   - 11: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"))
+2025-11-15 15:02:49.002 DEBUG testcase.Valid Input 1                   - 12: selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3"), "9", true)
+2025-11-15 15:02:49.966 DEBUG testcase.Valid Input 1                   - 13: selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select"), "1998", true)
+2025-11-15 15:02:51.993 DEBUG testcase.Valid Input 1                   - 14: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc"))
+2025-11-15 15:02:52.560 DEBUG testcase.Valid Input 1                   - 15: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf"))
+2025-11-15 15:02:52.898 DEBUG testcase.Valid Input 1                   - 16: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput"), "a")
+2025-11-15 15:02:53.741 DEBUG testcase.Valid Input 1                   - 17: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1"))
+2025-11-15 15:02:54.307 DEBUG testcase.Valid Input 1                   - 18: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label"))
+2025-11-15 15:02:54.860 DEBUG testcase.Valid Input 1                   - 19: projectDir = getProjectDir()
+2025-11-15 15:02:54.863 DEBUG testcase.Valid Input 1                   - 20: pdfPath = projectDir + "/Data Files/Take Home Test_updated.pdf"
+2025-11-15 15:02:54.868 DEBUG testcase.Valid Input 1                   - 21: println("PDF PATH = " + pdfPath)
+PDF PATH = C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf
+2025-11-15 15:02:54.873 DEBUG testcase.Valid Input 1                   - 22: assert File(pdfPath).exists()
+2025-11-15 15:02:54.873 DEBUG testcase.Valid Input 1                   - 23: waitForElementVisible(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), 10)
+2025-11-15 15:02:55.216 DEBUG testcase.Valid Input 1                   - 24: uploadFile(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), pdfPath)
+2025-11-15 15:02:55.506 DEBUG testcase.Valid Input 1                   - 25: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress"), currentaddress)
+2025-11-15 15:02:56.203 DEBUG testcase.Valid Input 1                   - 26: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer"))
+2025-11-15 15:02:56.534 DEBUG testcase.Valid Input 1                   - 27: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0"))
+2025-11-15 15:02:57.087 DEBUG testcase.Valid Input 1                   - 28: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer"))
+2025-11-15 15:02:57.643 DEBUG testcase.Valid Input 1                   - 29: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0"))
+2025-11-15 15:02:58.195 DEBUG testcase.Valid Input 1                   - 30: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit"))
+2025-11-15 15:02:58.793 DEBUG testcase.Valid Input 1                   - 31: verifyTextPresent("Thanks for submitting the form", false)
+2025-11-15 15:02:59.337 DEBUG testcase.Valid Input 1                   - 32: closeBrowser()
+2025-11-15 15:02:59.628 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Valid Input 1
+2025-11-15 15:02:59.793 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-15 15:02:59.794 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Valid Input 1
+2025-11-15 15:02:59.818 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstname = Susi
+2025-11-15 15:02:59.819 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastname = Susanti
+2025-11-15 15:02:59.819 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = susi@yahoo.com
+2025-11-15 15:02:59.820 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = Female
+2025-11-15 15:02:59.820 INFO  c.k.katalon.core.main.TestCaseExecutor   - mobile = 1111111111
+2025-11-15 15:02:59.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - dateofbirth = 05 Feb 2000
+2025-11-15 15:02:59.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - subjects = Arts
+2025-11-15 15:02:59.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - hobbies = Reading
+2025-11-15 15:02:59.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - picture = C:\Users\Prima_Hutapea\Katalon Studio\demoqa.com\Data Files\Take Home Test_updated.pdf
+2025-11-15 15:02:59.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - currentaddress = Jl. B
+2025-11-15 15:02:59.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - state = Haryana
+2025-11-15 15:02:59.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - city = Karnal
+2025-11-15 15:02:59.824 DEBUG testcase.Valid Input 1                   - 1: openBrowser("")
+2025-11-15 15:02:59.828 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-11-15 15:02:59.829 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 15, 2025 3:03:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-15 15:03:00.879 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dd455296aa93062a1533aa331316762a
+2025-11-15 15:03:00.880 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.60
+2025-11-15 15:03:00.880 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-15 15:03:00.880 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-15 15:03:00.881 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-15 15:03:00.901 DEBUG testcase.Valid Input 1                   - 2: maximizeWindow()
+2025-11-15 15:03:00.956 DEBUG testcase.Valid Input 1                   - 3: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-15 15:03:11.021 DEBUG testcase.Valid Input 1                   - 4: verifyTextPresent("Practice Form", false)
+2025-11-15 15:03:12.397 DEBUG testcase.Valid Input 1                   - 5: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName"), firstname)
+2025-11-15 15:03:13.156 DEBUG testcase.Valid Input 1                   - 6: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName"), lastname)
+2025-11-15 15:03:13.841 DEBUG testcase.Valid Input 1                   - 7: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail"), email)
+2025-11-15 15:03:14.571 DEBUG testcase.Valid Input 1                   - 8: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label"))
+2025-11-15 15:03:14.924 DEBUG testcase.Valid Input 1                   - 9: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber"), mobile)
+2025-11-15 15:03:15.554 DEBUG testcase.Valid Input 1                   - 10: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"), dateofbirth)
+2025-11-15 15:03:16.584 DEBUG testcase.Valid Input 1                   - 11: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"))
+2025-11-15 15:03:17.155 DEBUG testcase.Valid Input 1                   - 12: selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3"), "9", true)
+2025-11-15 15:03:18.123 DEBUG testcase.Valid Input 1                   - 13: selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select"), "1998", true)
+2025-11-15 15:03:20.255 DEBUG testcase.Valid Input 1                   - 14: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc"))
+2025-11-15 15:03:20.818 DEBUG testcase.Valid Input 1                   - 15: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf"))
+2025-11-15 15:03:21.223 DEBUG testcase.Valid Input 1                   - 16: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput"), "a")
+2025-11-15 15:03:22.049 DEBUG testcase.Valid Input 1                   - 17: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1"))
+2025-11-15 15:03:22.606 DEBUG testcase.Valid Input 1                   - 18: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label"))
+2025-11-15 15:03:23.153 DEBUG testcase.Valid Input 1                   - 19: projectDir = getProjectDir()
+2025-11-15 15:03:23.154 DEBUG testcase.Valid Input 1                   - 20: pdfPath = projectDir + "/Data Files/Take Home Test_updated.pdf"
+2025-11-15 15:03:23.154 DEBUG testcase.Valid Input 1                   - 21: println("PDF PATH = " + pdfPath)
+PDF PATH = C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf
+2025-11-15 15:03:23.154 DEBUG testcase.Valid Input 1                   - 22: assert File(pdfPath).exists()
+2025-11-15 15:03:23.155 DEBUG testcase.Valid Input 1                   - 23: waitForElementVisible(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), 10)
+2025-11-15 15:03:23.421 DEBUG testcase.Valid Input 1                   - 24: uploadFile(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), pdfPath)
+2025-11-15 15:03:23.700 DEBUG testcase.Valid Input 1                   - 25: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress"), currentaddress)
+2025-11-15 15:03:24.368 DEBUG testcase.Valid Input 1                   - 26: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer"))
+2025-11-15 15:03:24.694 DEBUG testcase.Valid Input 1                   - 27: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0"))
+2025-11-15 15:03:25.235 DEBUG testcase.Valid Input 1                   - 28: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer"))
+2025-11-15 15:03:25.770 DEBUG testcase.Valid Input 1                   - 29: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0"))
+2025-11-15 15:03:26.299 DEBUG testcase.Valid Input 1                   - 30: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit"))
+2025-11-15 15:03:26.856 DEBUG testcase.Valid Input 1                   - 31: verifyTextPresent("Thanks for submitting the form", false)
+2025-11-15 15:03:27.463 DEBUG testcase.Valid Input 1                   - 32: closeBrowser()
+2025-11-15 15:03:27.875 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Valid Input 1
+2025-11-15 15:03:28.007 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-15 15:03:28.007 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Valid Input 1
+2025-11-15 15:03:28.030 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstname = Puji
+2025-11-15 15:03:28.030 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastname = Susilo
+2025-11-15 15:03:28.031 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = puji@gmail.com
+2025-11-15 15:03:28.031 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = Male
+2025-11-15 15:03:28.031 INFO  c.k.katalon.core.main.TestCaseExecutor   - mobile = 2222222222
+2025-11-15 15:03:28.032 INFO  c.k.katalon.core.main.TestCaseExecutor   - dateofbirth = 30 Mar 1995
+2025-11-15 15:03:28.032 INFO  c.k.katalon.core.main.TestCaseExecutor   - subjects = English
+2025-11-15 15:03:28.032 INFO  c.k.katalon.core.main.TestCaseExecutor   - hobbies = Music
+2025-11-15 15:03:28.032 INFO  c.k.katalon.core.main.TestCaseExecutor   - picture = C:\Users\Prima_Hutapea\Katalon Studio\demoqa.com\Data Files\Take Home Test_updated.pdf
+2025-11-15 15:03:28.034 INFO  c.k.katalon.core.main.TestCaseExecutor   - currentaddress = Jl. C
+2025-11-15 15:03:28.034 INFO  c.k.katalon.core.main.TestCaseExecutor   - state = Rajasthan
+2025-11-15 15:03:28.034 INFO  c.k.katalon.core.main.TestCaseExecutor   - city = Jaipur
+2025-11-15 15:03:28.037 DEBUG testcase.Valid Input 1                   - 1: openBrowser("")
+2025-11-15 15:03:28.040 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-11-15 15:03:28.042 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 15, 2025 3:03:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-15 15:03:29.043 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8e16327e9abfeff2a665205091bf355d
+2025-11-15 15:03:29.044 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.60
+2025-11-15 15:03:29.046 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-15 15:03:29.047 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-15 15:03:29.047 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-15 15:03:29.070 DEBUG testcase.Valid Input 1                   - 2: maximizeWindow()
+2025-11-15 15:03:29.134 DEBUG testcase.Valid Input 1                   - 3: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-15 15:03:38.436 DEBUG testcase.Valid Input 1                   - 4: verifyTextPresent("Practice Form", false)
+2025-11-15 15:03:39.491 DEBUG testcase.Valid Input 1                   - 5: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName"), firstname)
+2025-11-15 15:03:40.144 DEBUG testcase.Valid Input 1                   - 6: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName"), lastname)
+2025-11-15 15:03:40.786 DEBUG testcase.Valid Input 1                   - 7: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail"), email)
+2025-11-15 15:03:41.450 DEBUG testcase.Valid Input 1                   - 8: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label"))
+2025-11-15 15:03:41.768 DEBUG testcase.Valid Input 1                   - 9: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber"), mobile)
+2025-11-15 15:03:42.383 DEBUG testcase.Valid Input 1                   - 10: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"), dateofbirth)
+2025-11-15 15:03:43.284 DEBUG testcase.Valid Input 1                   - 11: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"))
+2025-11-15 15:03:43.814 DEBUG testcase.Valid Input 1                   - 12: selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3"), "9", true)
+2025-11-15 15:03:44.717 DEBUG testcase.Valid Input 1                   - 13: selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select"), "1998", true)
+2025-11-15 15:03:46.678 DEBUG testcase.Valid Input 1                   - 14: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc"))
+2025-11-15 15:03:47.244 DEBUG testcase.Valid Input 1                   - 15: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf"))
+2025-11-15 15:03:47.611 DEBUG testcase.Valid Input 1                   - 16: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput"), "a")
+2025-11-15 15:03:48.455 DEBUG testcase.Valid Input 1                   - 17: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1"))
+2025-11-15 15:03:49.000 DEBUG testcase.Valid Input 1                   - 18: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label"))
+2025-11-15 15:03:49.551 DEBUG testcase.Valid Input 1                   - 19: projectDir = getProjectDir()
+2025-11-15 15:03:49.552 DEBUG testcase.Valid Input 1                   - 20: pdfPath = projectDir + "/Data Files/Take Home Test_updated.pdf"
+2025-11-15 15:03:49.553 DEBUG testcase.Valid Input 1                   - 21: println("PDF PATH = " + pdfPath)
+PDF PATH = C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf
+2025-11-15 15:03:49.553 DEBUG testcase.Valid Input 1                   - 22: assert File(pdfPath).exists()
+2025-11-15 15:03:49.554 DEBUG testcase.Valid Input 1                   - 23: waitForElementVisible(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), 10)
+2025-11-15 15:03:49.811 DEBUG testcase.Valid Input 1                   - 24: uploadFile(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), pdfPath)
+2025-11-15 15:03:50.080 DEBUG testcase.Valid Input 1                   - 25: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress"), currentaddress)
+2025-11-15 15:03:50.711 DEBUG testcase.Valid Input 1                   - 26: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer"))
+2025-11-15 15:03:51.045 DEBUG testcase.Valid Input 1                   - 27: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0"))
+2025-11-15 15:03:51.591 DEBUG testcase.Valid Input 1                   - 28: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer"))
+2025-11-15 15:03:52.147 DEBUG testcase.Valid Input 1                   - 29: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0"))
+2025-11-15 15:03:52.700 DEBUG testcase.Valid Input 1                   - 30: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit"))
+2025-11-15 15:03:53.247 DEBUG testcase.Valid Input 1                   - 31: verifyTextPresent("Thanks for submitting the form", false)
+2025-11-15 15:03:53.787 DEBUG testcase.Valid Input 1                   - 32: closeBrowser()
+2025-11-15 15:03:53.999 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Valid Input 1
+2025-11-15 15:03:54.075 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-15 15:03:54.076 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Valid Input 1
+2025-11-15 15:03:54.087 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstname = Susan
+2025-11-15 15:03:54.088 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastname = Jaya
+2025-11-15 15:03:54.089 INFO  c.k.katalon.core.main.TestCaseExecutor   - email = susan@gmail.com
+2025-11-15 15:03:54.089 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = Female
+2025-11-15 15:03:54.089 INFO  c.k.katalon.core.main.TestCaseExecutor   - mobile = 3333333333
+2025-11-15 15:03:54.089 INFO  c.k.katalon.core.main.TestCaseExecutor   - dateofbirth = 14 Jun 1990
+2025-11-15 15:03:54.089 INFO  c.k.katalon.core.main.TestCaseExecutor   - subjects = Accounting
+2025-11-15 15:03:54.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - hobbies = Sports
+2025-11-15 15:03:54.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - picture = C:\Users\Prima_Hutapea\Katalon Studio\demoqa.com\Data Files\Take Home Test_updated.pdf
+2025-11-15 15:03:54.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - currentaddress = Jl. D
+2025-11-15 15:03:54.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - state = NCR
+2025-11-15 15:03:54.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - city = Noida
+2025-11-15 15:03:54.093 DEBUG testcase.Valid Input 1                   - 1: openBrowser("")
+2025-11-15 15:03:54.095 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-11-15 15:03:54.098 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 15, 2025 3:03:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-15 15:03:54.929 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8693fcaec1bb0a2a848d596ade5d9ad8
+2025-11-15 15:03:54.930 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.60
+2025-11-15 15:03:54.930 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-15 15:03:54.930 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-15 15:03:54.931 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-15 15:03:54.948 DEBUG testcase.Valid Input 1                   - 2: maximizeWindow()
+2025-11-15 15:03:54.997 DEBUG testcase.Valid Input 1                   - 3: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-11-15 15:04:08.765 DEBUG testcase.Valid Input 1                   - 4: verifyTextPresent("Practice Form", false)
+2025-11-15 15:04:10.560 DEBUG testcase.Valid Input 1                   - 5: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName"), firstname)
+2025-11-15 15:04:11.216 DEBUG testcase.Valid Input 1                   - 6: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName"), lastname)
+2025-11-15 15:04:11.819 DEBUG testcase.Valid Input 1                   - 7: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail"), email)
+2025-11-15 15:04:12.473 DEBUG testcase.Valid Input 1                   - 8: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label"))
+2025-11-15 15:04:12.805 DEBUG testcase.Valid Input 1                   - 9: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber"), mobile)
+2025-11-15 15:04:13.453 DEBUG testcase.Valid Input 1                   - 10: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"), dateofbirth)
+2025-11-15 15:04:14.467 DEBUG testcase.Valid Input 1                   - 11: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"))
+2025-11-15 15:04:15.017 DEBUG testcase.Valid Input 1                   - 12: selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3"), "9", true)
+2025-11-15 15:04:15.934 DEBUG testcase.Valid Input 1                   - 13: selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select"), "1998", true)
+2025-11-15 15:04:17.868 DEBUG testcase.Valid Input 1                   - 14: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc"))
+2025-11-15 15:04:18.432 DEBUG testcase.Valid Input 1                   - 15: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf"))
+2025-11-15 15:04:18.766 DEBUG testcase.Valid Input 1                   - 16: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput"), "a")
+2025-11-15 15:04:19.583 DEBUG testcase.Valid Input 1                   - 17: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1"))
+2025-11-15 15:04:20.177 DEBUG testcase.Valid Input 1                   - 18: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label"))
+2025-11-15 15:04:20.747 DEBUG testcase.Valid Input 1                   - 19: projectDir = getProjectDir()
+2025-11-15 15:04:20.748 DEBUG testcase.Valid Input 1                   - 20: pdfPath = projectDir + "/Data Files/Take Home Test_updated.pdf"
+2025-11-15 15:04:20.748 DEBUG testcase.Valid Input 1                   - 21: println("PDF PATH = " + pdfPath)
+PDF PATH = C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf
+2025-11-15 15:04:20.749 DEBUG testcase.Valid Input 1                   - 22: assert File(pdfPath).exists()
+2025-11-15 15:04:20.749 DEBUG testcase.Valid Input 1                   - 23: waitForElementVisible(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), 10)
+2025-11-15 15:04:21.011 DEBUG testcase.Valid Input 1                   - 24: uploadFile(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), pdfPath)
+2025-11-15 15:04:21.270 DEBUG testcase.Valid Input 1                   - 25: setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress"), currentaddress)
+2025-11-15 15:04:21.886 DEBUG testcase.Valid Input 1                   - 26: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer"))
+2025-11-15 15:04:22.212 DEBUG testcase.Valid Input 1                   - 27: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0"))
+2025-11-15 15:04:22.742 DEBUG testcase.Valid Input 1                   - 28: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer"))
+2025-11-15 15:04:23.277 DEBUG testcase.Valid Input 1                   - 29: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0"))
+2025-11-15 15:04:23.827 DEBUG testcase.Valid Input 1                   - 30: click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit"))
+2025-11-15 15:04:24.431 DEBUG testcase.Valid Input 1                   - 31: verifyTextPresent("Thanks for submitting the form", false)
+2025-11-15 15:04:24.953 DEBUG testcase.Valid Input 1                   - 32: closeBrowser()
+2025-11-15 15:04:25.235 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Valid Input 1
+2025-11-15 15:04:25.267 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-15 15:04:25.268 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/DDT demoqa
+2025-11-15 15:04:25.268 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

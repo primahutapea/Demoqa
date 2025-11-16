@@ -1,0 +1,142 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT demoqa,Chrome 142.0.7444.60,,,15-11-2025 15:02:30,15-11-2025 15:04:25,1m - 55.008s,PASSED
+,,,,,,,
+Test Cases/Valid Input 1,Chrome 142.0.7444.60,,,15-11-2025 15:02:30,15-11-2025 15:02:59,28.704s,PASSED
+"DATA BINDING - {""currentaddress"":""Jl. A"",""dateofbirth"":""26 Oct 1998"",""firstname"":""Prima"",""gender"":""Male"",""hobbies"":""Sports"",""city"":""Delhi"",""subjects"":""Maths"",""mobile"":""1234567890"",""state"":""NCR"",""email"":""primahutapea@gmail.com"",""picture"":""C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Data Files\\Take Home Test_updated.pdf"",""lastname"":""Hutapea""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.60,,,15-11-2025 15:02:31,15-11-2025 15:02:33,2.259s,PASSED
+maximizeWindow(),Chrome 142.0.7444.60,,,15-11-2025 15:02:33,15-11-2025 15:02:33,0.074s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.60,,,15-11-2025 15:02:33,15-11-2025 15:02:42,8.683s,PASSED
+"verifyTextPresent(""Practice Form"", false)",Chrome 142.0.7444.60,,,15-11-2025 15:02:42,15-11-2025 15:02:44,1.636s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName""), firstname)",Chrome 142.0.7444.60,,,15-11-2025 15:02:44,15-11-2025 15:02:44,0.899s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName""), lastname)",Chrome 142.0.7444.60,,,15-11-2025 15:02:44,15-11-2025 15:02:45,0.682s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail""), email)",Chrome 142.0.7444.60,,,15-11-2025 15:02:45,15-11-2025 15:02:46,0.704s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:46,15-11-2025 15:02:46,0.352s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber""), mobile)",Chrome 142.0.7444.60,,,15-11-2025 15:02:46,15-11-2025 15:02:47,0.683s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""), dateofbirth)",Chrome 142.0.7444.60,,,15-11-2025 15:02:47,15-11-2025 15:02:48,1.035s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:48,15-11-2025 15:02:49,0.549s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3""), ""9"", true)",Chrome 142.0.7444.60,,,15-11-2025 15:02:49,15-11-2025 15:02:49,0.964s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select""), ""1998"", true)",Chrome 142.0.7444.60,,,15-11-2025 15:02:49,15-11-2025 15:02:51,2.027s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:51,15-11-2025 15:02:52,0.567s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:52,15-11-2025 15:02:52,0.337s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput""), ""a"")",Chrome 142.0.7444.60,,,15-11-2025 15:02:52,15-11-2025 15:02:53,0.842s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:53,15-11-2025 15:02:54,0.566s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:54,15-11-2025 15:02:54,0.553s,PASSED
+projectDir = getProjectDir(),Chrome 142.0.7444.60,,,15-11-2025 15:02:54,15-11-2025 15:02:54,0.002s,PASSED
+"pdfPath = projectDir + ""/Data Files/Take Home Test_updated.pdf""",Chrome 142.0.7444.60,,,15-11-2025 15:02:54,15-11-2025 15:02:54,0.005s,PASSED
+"println(""PDF PATH = "" + pdfPath)",Chrome 142.0.7444.60,,,15-11-2025 15:02:54,15-11-2025 15:02:54,0.002s,PASSED
+assert File(pdfPath).exists(),Chrome 142.0.7444.60,,,15-11-2025 15:02:54,15-11-2025 15:02:54,0.000s,PASSED
+"waitForElementVisible(findTestObject(""valid input 1/Page_DEMOQA/input_Select picture_uploadPicture""), 10)",Chrome 142.0.7444.60,,,15-11-2025 15:02:54,15-11-2025 15:02:55,0.343s,PASSED
+"uploadFile(findTestObject(""valid input 1/Page_DEMOQA/input_Select picture_uploadPicture""), pdfPath)",Chrome 142.0.7444.60,,,15-11-2025 15:02:55,15-11-2025 15:02:55,0.290s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress""), currentaddress)",Chrome 142.0.7444.60,,,15-11-2025 15:02:55,15-11-2025 15:02:56,0.698s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:56,15-11-2025 15:02:56,0.329s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:56,15-11-2025 15:02:57,0.553s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:57,15-11-2025 15:02:57,0.556s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:57,15-11-2025 15:02:58,0.551s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit""))",Chrome 142.0.7444.60,,,15-11-2025 15:02:58,15-11-2025 15:02:58,0.597s,PASSED
+"verifyTextPresent(""Thanks for submitting the form"", false)",Chrome 142.0.7444.60,,,15-11-2025 15:02:58,15-11-2025 15:02:59,0.546s,PASSED
+closeBrowser(),Chrome 142.0.7444.60,,,15-11-2025 15:02:59,15-11-2025 15:02:59,0.286s,PASSED
+,,,,,,,
+Test Cases/Valid Input 1,Chrome 142.0.7444.60,,,15-11-2025 15:02:59,15-11-2025 15:03:27,28.081s,PASSED
+"DATA BINDING - {""currentaddress"":""Jl. B"",""dateofbirth"":""05 Feb 2000"",""firstname"":""Susi"",""gender"":""Female"",""hobbies"":""Reading"",""city"":""Karnal"",""subjects"":""Arts"",""mobile"":""1111111111"",""state"":""Haryana"",""email"":""susi@yahoo.com"",""picture"":""C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Data Files\\Take Home Test_updated.pdf"",""lastname"":""Susanti""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.60,,,15-11-2025 15:02:59,15-11-2025 15:03:00,1.076s,PASSED
+maximizeWindow(),Chrome 142.0.7444.60,,,15-11-2025 15:03:00,15-11-2025 15:03:00,0.054s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.60,,,15-11-2025 15:03:00,15-11-2025 15:03:11,10.064s,PASSED
+"verifyTextPresent(""Practice Form"", false)",Chrome 142.0.7444.60,,,15-11-2025 15:03:11,15-11-2025 15:03:12,1.374s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName""), firstname)",Chrome 142.0.7444.60,,,15-11-2025 15:03:12,15-11-2025 15:03:13,0.758s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName""), lastname)",Chrome 142.0.7444.60,,,15-11-2025 15:03:13,15-11-2025 15:03:13,0.684s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail""), email)",Chrome 142.0.7444.60,,,15-11-2025 15:03:13,15-11-2025 15:03:14,0.729s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:14,15-11-2025 15:03:14,0.353s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber""), mobile)",Chrome 142.0.7444.60,,,15-11-2025 15:03:14,15-11-2025 15:03:15,0.629s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""), dateofbirth)",Chrome 142.0.7444.60,,,15-11-2025 15:03:15,15-11-2025 15:03:16,1.029s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:16,15-11-2025 15:03:17,0.570s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3""), ""9"", true)",Chrome 142.0.7444.60,,,15-11-2025 15:03:17,15-11-2025 15:03:18,0.968s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select""), ""1998"", true)",Chrome 142.0.7444.60,,,15-11-2025 15:03:18,15-11-2025 15:03:20,2.132s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:20,15-11-2025 15:03:20,0.566s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:20,15-11-2025 15:03:21,0.402s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput""), ""a"")",Chrome 142.0.7444.60,,,15-11-2025 15:03:21,15-11-2025 15:03:22,0.826s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:22,15-11-2025 15:03:22,0.556s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:22,15-11-2025 15:03:23,0.547s,PASSED
+projectDir = getProjectDir(),Chrome 142.0.7444.60,,,15-11-2025 15:03:23,15-11-2025 15:03:23,0.001s,PASSED
+"pdfPath = projectDir + ""/Data Files/Take Home Test_updated.pdf""",Chrome 142.0.7444.60,,,15-11-2025 15:03:23,15-11-2025 15:03:23,0.000s,PASSED
+"println(""PDF PATH = "" + pdfPath)",Chrome 142.0.7444.60,,,15-11-2025 15:03:23,15-11-2025 15:03:23,0.001s,PASSED
+assert File(pdfPath).exists(),Chrome 142.0.7444.60,,,15-11-2025 15:03:23,15-11-2025 15:03:23,0.000s,PASSED
+"waitForElementVisible(findTestObject(""valid input 1/Page_DEMOQA/input_Select picture_uploadPicture""), 10)",Chrome 142.0.7444.60,,,15-11-2025 15:03:23,15-11-2025 15:03:23,0.266s,PASSED
+"uploadFile(findTestObject(""valid input 1/Page_DEMOQA/input_Select picture_uploadPicture""), pdfPath)",Chrome 142.0.7444.60,,,15-11-2025 15:03:23,15-11-2025 15:03:23,0.278s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress""), currentaddress)",Chrome 142.0.7444.60,,,15-11-2025 15:03:23,15-11-2025 15:03:24,0.668s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:24,15-11-2025 15:03:24,0.326s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:24,15-11-2025 15:03:25,0.541s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:25,15-11-2025 15:03:25,0.535s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:25,15-11-2025 15:03:26,0.529s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:26,15-11-2025 15:03:26,0.557s,PASSED
+"verifyTextPresent(""Thanks for submitting the form"", false)",Chrome 142.0.7444.60,,,15-11-2025 15:03:26,15-11-2025 15:03:27,0.607s,PASSED
+closeBrowser(),Chrome 142.0.7444.60,,,15-11-2025 15:03:27,15-11-2025 15:03:27,0.411s,PASSED
+,,,,,,,
+Test Cases/Valid Input 1,Chrome 142.0.7444.60,,,15-11-2025 15:03:28,15-11-2025 15:03:53,25.992s,PASSED
+"DATA BINDING - {""currentaddress"":""Jl. C"",""dateofbirth"":""30 Mar 1995"",""firstname"":""Puji"",""gender"":""Male"",""hobbies"":""Music"",""city"":""Jaipur"",""subjects"":""English"",""mobile"":""2222222222"",""state"":""Rajasthan"",""email"":""puji@gmail.com"",""picture"":""C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Data Files\\Take Home Test_updated.pdf"",""lastname"":""Susilo""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.60,,,15-11-2025 15:03:28,15-11-2025 15:03:29,1.033s,PASSED
+maximizeWindow(),Chrome 142.0.7444.60,,,15-11-2025 15:03:29,15-11-2025 15:03:29,0.065s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.60,,,15-11-2025 15:03:29,15-11-2025 15:03:38,9.301s,PASSED
+"verifyTextPresent(""Practice Form"", false)",Chrome 142.0.7444.60,,,15-11-2025 15:03:38,15-11-2025 15:03:39,1.055s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName""), firstname)",Chrome 142.0.7444.60,,,15-11-2025 15:03:39,15-11-2025 15:03:40,0.654s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName""), lastname)",Chrome 142.0.7444.60,,,15-11-2025 15:03:40,15-11-2025 15:03:40,0.641s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail""), email)",Chrome 142.0.7444.60,,,15-11-2025 15:03:40,15-11-2025 15:03:41,0.665s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:41,15-11-2025 15:03:41,0.317s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber""), mobile)",Chrome 142.0.7444.60,,,15-11-2025 15:03:41,15-11-2025 15:03:42,0.615s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""), dateofbirth)",Chrome 142.0.7444.60,,,15-11-2025 15:03:42,15-11-2025 15:03:43,0.901s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:43,15-11-2025 15:03:43,0.530s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3""), ""9"", true)",Chrome 142.0.7444.60,,,15-11-2025 15:03:43,15-11-2025 15:03:44,0.903s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select""), ""1998"", true)",Chrome 142.0.7444.60,,,15-11-2025 15:03:44,15-11-2025 15:03:46,1.961s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:46,15-11-2025 15:03:47,0.566s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:47,15-11-2025 15:03:47,0.367s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput""), ""a"")",Chrome 142.0.7444.60,,,15-11-2025 15:03:47,15-11-2025 15:03:48,0.844s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:48,15-11-2025 15:03:49,0.545s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:49,15-11-2025 15:03:49,0.551s,PASSED
+projectDir = getProjectDir(),Chrome 142.0.7444.60,,,15-11-2025 15:03:49,15-11-2025 15:03:49,0.000s,PASSED
+"pdfPath = projectDir + ""/Data Files/Take Home Test_updated.pdf""",Chrome 142.0.7444.60,,,15-11-2025 15:03:49,15-11-2025 15:03:49,0.001s,PASSED
+"println(""PDF PATH = "" + pdfPath)",Chrome 142.0.7444.60,,,15-11-2025 15:03:49,15-11-2025 15:03:49,0.000s,PASSED
+assert File(pdfPath).exists(),Chrome 142.0.7444.60,,,15-11-2025 15:03:49,15-11-2025 15:03:49,0.001s,PASSED
+"waitForElementVisible(findTestObject(""valid input 1/Page_DEMOQA/input_Select picture_uploadPicture""), 10)",Chrome 142.0.7444.60,,,15-11-2025 15:03:49,15-11-2025 15:03:49,0.257s,PASSED
+"uploadFile(findTestObject(""valid input 1/Page_DEMOQA/input_Select picture_uploadPicture""), pdfPath)",Chrome 142.0.7444.60,,,15-11-2025 15:03:49,15-11-2025 15:03:50,0.269s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress""), currentaddress)",Chrome 142.0.7444.60,,,15-11-2025 15:03:50,15-11-2025 15:03:50,0.631s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:50,15-11-2025 15:03:51,0.334s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:51,15-11-2025 15:03:51,0.546s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:51,15-11-2025 15:03:52,0.555s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:52,15-11-2025 15:03:52,0.554s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit""))",Chrome 142.0.7444.60,,,15-11-2025 15:03:52,15-11-2025 15:03:53,0.546s,PASSED
+"verifyTextPresent(""Thanks for submitting the form"", false)",Chrome 142.0.7444.60,,,15-11-2025 15:03:53,15-11-2025 15:03:53,0.540s,PASSED
+closeBrowser(),Chrome 142.0.7444.60,,,15-11-2025 15:03:53,15-11-2025 15:03:53,0.211s,PASSED
+,,,,,,,
+Test Cases/Valid Input 1,Chrome 142.0.7444.60,,,15-11-2025 15:03:54,15-11-2025 15:04:25,31.159s,PASSED
+"DATA BINDING - {""currentaddress"":""Jl. D"",""dateofbirth"":""14 Jun 1990"",""firstname"":""Susan"",""gender"":""Female"",""hobbies"":""Sports"",""city"":""Noida"",""subjects"":""Accounting"",""mobile"":""3333333333"",""state"":""NCR"",""email"":""susan@gmail.com"",""picture"":""C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Data Files\\Take Home Test_updated.pdf"",""lastname"":""Jaya""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.60,,,15-11-2025 15:03:54,15-11-2025 15:03:54,0.855s,PASSED
+maximizeWindow(),Chrome 142.0.7444.60,,,15-11-2025 15:03:54,15-11-2025 15:03:54,0.048s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 142.0.7444.60,,,15-11-2025 15:03:54,15-11-2025 15:04:08,13.768s,PASSED
+"verifyTextPresent(""Practice Form"", false)",Chrome 142.0.7444.60,,,15-11-2025 15:04:08,15-11-2025 15:04:10,1.795s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName""), firstname)",Chrome 142.0.7444.60,,,15-11-2025 15:04:10,15-11-2025 15:04:11,0.656s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName""), lastname)",Chrome 142.0.7444.60,,,15-11-2025 15:04:11,15-11-2025 15:04:11,0.603s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail""), email)",Chrome 142.0.7444.60,,,15-11-2025 15:04:11,15-11-2025 15:04:12,0.655s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:12,15-11-2025 15:04:12,0.331s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber""), mobile)",Chrome 142.0.7444.60,,,15-11-2025 15:04:12,15-11-2025 15:04:13,0.649s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""), dateofbirth)",Chrome 142.0.7444.60,,,15-11-2025 15:04:13,15-11-2025 15:04:14,1.014s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:14,15-11-2025 15:04:15,0.550s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3""), ""9"", true)",Chrome 142.0.7444.60,,,15-11-2025 15:04:15,15-11-2025 15:04:15,0.916s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select""), ""1998"", true)",Chrome 142.0.7444.60,,,15-11-2025 15:04:15,15-11-2025 15:04:17,1.935s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:17,15-11-2025 15:04:18,0.564s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:18,15-11-2025 15:04:18,0.333s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput""), ""a"")",Chrome 142.0.7444.60,,,15-11-2025 15:04:18,15-11-2025 15:04:19,0.817s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:19,15-11-2025 15:04:20,0.594s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:20,15-11-2025 15:04:20,0.569s,PASSED
+projectDir = getProjectDir(),Chrome 142.0.7444.60,,,15-11-2025 15:04:20,15-11-2025 15:04:20,0.000s,PASSED
+"pdfPath = projectDir + ""/Data Files/Take Home Test_updated.pdf""",Chrome 142.0.7444.60,,,15-11-2025 15:04:20,15-11-2025 15:04:20,0.000s,PASSED
+"println(""PDF PATH = "" + pdfPath)",Chrome 142.0.7444.60,,,15-11-2025 15:04:20,15-11-2025 15:04:20,0.001s,PASSED
+assert File(pdfPath).exists(),Chrome 142.0.7444.60,,,15-11-2025 15:04:20,15-11-2025 15:04:20,0.000s,PASSED
+"waitForElementVisible(findTestObject(""valid input 1/Page_DEMOQA/input_Select picture_uploadPicture""), 10)",Chrome 142.0.7444.60,,,15-11-2025 15:04:20,15-11-2025 15:04:21,0.262s,PASSED
+"uploadFile(findTestObject(""valid input 1/Page_DEMOQA/input_Select picture_uploadPicture""), pdfPath)",Chrome 142.0.7444.60,,,15-11-2025 15:04:21,15-11-2025 15:04:21,0.261s,PASSED
+"setText(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress""), currentaddress)",Chrome 142.0.7444.60,,,15-11-2025 15:04:21,15-11-2025 15:04:21,0.615s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:21,15-11-2025 15:04:22,0.325s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:22,15-11-2025 15:04:22,0.530s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:22,15-11-2025 15:04:23,0.535s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:23,15-11-2025 15:04:23,0.550s,PASSED
+"click(findTestObject(""Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit""))",Chrome 142.0.7444.60,,,15-11-2025 15:04:23,15-11-2025 15:04:24,0.601s,PASSED
+"verifyTextPresent(""Thanks for submitting the form"", false)",Chrome 142.0.7444.60,,,15-11-2025 15:04:24,15-11-2025 15:04:24,0.522s,PASSED
+closeBrowser(),Chrome 142.0.7444.60,,,15-11-2025 15:04:24,15-11-2025 15:04:25,0.282s,PASSED

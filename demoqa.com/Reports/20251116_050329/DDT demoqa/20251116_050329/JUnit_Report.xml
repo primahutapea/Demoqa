@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDT demoqa" time="137.598" tests="4" failures="0" errors="0">
+   <testsuite name="DDT demoqa" tests="4" failures="0" errors="0" time="137.598" skipped="0" timestamp="2025-11-15T22:03:42.198Z" hostname="Prima_Hutapea - KitaDalamBahaya-TPE14" id="Test Suites/DDT demoqa">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Reports\\20251116_050329\\DDT demoqa\\20251116_050329"/>
+         <property name="logFiles" value="C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Reports\\20251116_050329\\DDT demoqa\\20251116_050329\\console0.log, C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Reports\\20251116_050329\\DDT demoqa\\20251116_050329\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Prima_Hutapea - KitaDalamBahaya-TPE14"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.1.0"/>
+         <property name="browser" value="Chrome 142.0.7444.60"/>
+         <property name="userFullName" value="primahutapea26"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="37e3ebe9175b1089e5b4684d99204d73"/>
+         <property name="projectName" value="demoqa.com"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Valid Input DDT" time="48.003" classname="Test Cases/Valid Input DDT" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"currentaddress":"Jl. A","dateofbirth":"26 Oct 1998","firstname":"Prima","gender":"Male","hobbies":"Sports","city":"Delhi","subjects":"Maths","mobile":"1234567890","state":"NCR","email":"primahutapea@gmail.com","picture":"C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Data Files\\Take Home Test_updated.pdf","lastname":"Hutapea"}]]></property>
+         </properties>
+         <system-out><![CDATA[16-11-2025T05:03:43 - [TEST_CASE][PASSED] - Test Cases/Valid Input DDT: Test Cases/Valid Input DDT
+
+16-11-2025T05:03:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-11-2025T05:03:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-11-2025T05:03:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-11-2025T05:03:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-11-2025T05:03:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-11-2025T05:03:47 - [MESSAGE][PASSED] - Current window maximized
+
+16-11-2025T05:03:47 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+16-11-2025T05:04:13 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+16-11-2025T05:04:13 - [TEST_STEP][PASSED] - verifyTextPresent("Practice Form", false): Text 'Practice Form' is present on page 
+
+16-11-2025T05:04:14 - [MESSAGE][PASSED] - Text 'Practice Form' is present on page 
+
+16-11-2025T05:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName"), firstname): Text 'Prima' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName'
+
+16-11-2025T05:04:15 - [MESSAGE][PASSED] - Text 'Prima' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName'
+
+16-11-2025T05:04:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName"), lastname): Text 'Hutapea' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName'
+
+16-11-2025T05:04:16 - [MESSAGE][PASSED] - Text 'Hutapea' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName'
+
+16-11-2025T05:04:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail"), email): Text 'primahutapea@gmail.com' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail'
+
+16-11-2025T05:04:16 - [MESSAGE][PASSED] - Text 'primahutapea@gmail.com' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail'
+
+16-11-2025T05:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label")): Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label' is clicked on
+
+16-11-2025T05:04:17 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label' is clicked on
+
+16-11-2025T05:04:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber"), mobile): Text '1234567890' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+16-11-2025T05:04:17 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+16-11-2025T05:04:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"), dateofbirth): Text '26 Oct 1998' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput'
+
+16-11-2025T05:04:19 - [MESSAGE][PASSED] - Text '26 Oct 1998' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput'
+
+16-11-2025T05:04:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput")): Object: 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput' is clicked on
+
+16-11-2025T05:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput' is clicked on
+
+16-11-2025T05:04:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3"), "9", true): All options with value '9' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3'  using regular expression
+
+16-11-2025T05:04:20 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3'  using regular expression
+
+16-11-2025T05:04:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select"), "1998", true): All options with value '1998' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select'  using regular expression
+
+16-11-2025T05:04:22 - [MESSAGE][PASSED] - All options with value '1998' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select'  using regular expression
+
+16-11-2025T05:04:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc' is clicked on
+
+16-11-2025T05:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc' is clicked on
+
+16-11-2025T05:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf' is clicked on
+
+16-11-2025T05:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf' is clicked on
+
+16-11-2025T05:04:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput"), "a"): Text 'a' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput'
+
+16-11-2025T05:04:24 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput'
+
+16-11-2025T05:04:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1' is clicked on
+
+16-11-2025T05:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1' is clicked on
+
+16-11-2025T05:04:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label")): Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label' is clicked on
+
+16-11-2025T05:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label' is clicked on
+
+16-11-2025T05:04:25 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+16-11-2025T05:04:25 - [TEST_STEP][PASSED] - pdfPath = projectDir + "/Data Files/Take Home Test_updated.pdf": null
+
+16-11-2025T05:04:25 - [TEST_STEP][PASSED] - println("PDF PATH = " + pdfPath): null
+
+16-11-2025T05:04:25 - [TEST_STEP][PASSED] - assert File(pdfPath).exists(): null
+
+16-11-2025T05:04:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), 10): Object 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture' is visible
+
+16-11-2025T05:04:26 - [MESSAGE][PASSED] - Object 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture' is visible
+
+16-11-2025T05:04:26 - [TEST_STEP][PASSED] - uploadFile(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), pdfPath): File 'C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf' sent to object: 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture'
+
+16-11-2025T05:04:26 - [MESSAGE][PASSED] - File 'C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf' sent to object: 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture'
+
+16-11-2025T05:04:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress"), currentaddress): Text 'Jl. A' is set on object 'Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+16-11-2025T05:04:27 - [MESSAGE][PASSED] - Text 'Jl. A' is set on object 'Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+16-11-2025T05:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0' is clicked on
+
+16-11-2025T05:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0' is clicked on
+
+16-11-2025T05:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0' is clicked on
+
+16-11-2025T05:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0' is clicked on
+
+16-11-2025T05:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit")): Object: 'Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit' is clicked on
+
+16-11-2025T05:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit' is clicked on
+
+16-11-2025T05:04:30 - [TEST_STEP][PASSED] - verifyTextPresent("Thanks for submitting the form", false): Text 'Thanks for submitting the form' is present on page 
+
+16-11-2025T05:04:30 - [MESSAGE][PASSED] - Text 'Thanks for submitting the form' is present on page 
+
+16-11-2025T05:04:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-11-2025T05:04:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Valid Input DDT" time="23.53" classname="Test Cases/Valid Input DDT" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"currentaddress":"Jl. B","dateofbirth":"05 Feb 2000","firstname":"Susi","gender":"Female","hobbies":"Reading","city":"Karnal","subjects":"Arts","mobile":"1111111111","state":"Haryana","email":"susi@yahoo.com","picture":"C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Data Files\\Take Home Test_updated.pdf","lastname":"Susanti"}]]></property>
+         </properties>
+         <system-out><![CDATA[16-11-2025T05:04:31 - [TEST_CASE][PASSED] - Test Cases/Valid Input DDT: Test Cases/Valid Input DDT
+
+16-11-2025T05:04:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-11-2025T05:04:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-11-2025T05:04:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-11-2025T05:04:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-11-2025T05:04:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-11-2025T05:04:32 - [MESSAGE][PASSED] - Current window maximized
+
+16-11-2025T05:04:32 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+16-11-2025T05:04:38 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+16-11-2025T05:04:38 - [TEST_STEP][PASSED] - verifyTextPresent("Practice Form", false): Text 'Practice Form' is present on page 
+
+16-11-2025T05:04:39 - [MESSAGE][PASSED] - Text 'Practice Form' is present on page 
+
+16-11-2025T05:04:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName"), firstname): Text 'Susi' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName'
+
+16-11-2025T05:04:40 - [MESSAGE][PASSED] - Text 'Susi' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName'
+
+16-11-2025T05:04:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName"), lastname): Text 'Susanti' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName'
+
+16-11-2025T05:04:41 - [MESSAGE][PASSED] - Text 'Susanti' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName'
+
+16-11-2025T05:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail"), email): Text 'susi@yahoo.com' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail'
+
+16-11-2025T05:04:41 - [MESSAGE][PASSED] - Text 'susi@yahoo.com' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail'
+
+16-11-2025T05:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label")): Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label' is clicked on
+
+16-11-2025T05:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label' is clicked on
+
+16-11-2025T05:04:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber"), mobile): Text '1111111111' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+16-11-2025T05:04:42 - [MESSAGE][PASSED] - Text '1111111111' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+16-11-2025T05:04:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"), dateofbirth): Text '05 Feb 2000' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput'
+
+16-11-2025T05:04:43 - [MESSAGE][PASSED] - Text '05 Feb 2000' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput'
+
+16-11-2025T05:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput")): Object: 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput' is clicked on
+
+16-11-2025T05:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput' is clicked on
+
+16-11-2025T05:04:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3"), "9", true): All options with value '9' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3'  using regular expression
+
+16-11-2025T05:04:45 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3'  using regular expression
+
+16-11-2025T05:04:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select"), "1998", true): All options with value '1998' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select'  using regular expression
+
+16-11-2025T05:04:47 - [MESSAGE][PASSED] - All options with value '1998' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select'  using regular expression
+
+16-11-2025T05:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc' is clicked on
+
+16-11-2025T05:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc' is clicked on
+
+16-11-2025T05:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf' is clicked on
+
+16-11-2025T05:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf' is clicked on
+
+16-11-2025T05:04:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput"), "a"): Text 'a' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput'
+
+16-11-2025T05:04:49 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput'
+
+16-11-2025T05:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1' is clicked on
+
+16-11-2025T05:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1' is clicked on
+
+16-11-2025T05:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label")): Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label' is clicked on
+
+16-11-2025T05:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label' is clicked on
+
+16-11-2025T05:04:50 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+16-11-2025T05:04:50 - [TEST_STEP][PASSED] - pdfPath = projectDir + "/Data Files/Take Home Test_updated.pdf": null
+
+16-11-2025T05:04:50 - [TEST_STEP][PASSED] - println("PDF PATH = " + pdfPath): null
+
+16-11-2025T05:04:50 - [TEST_STEP][PASSED] - assert File(pdfPath).exists(): null
+
+16-11-2025T05:04:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), 10): Object 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture' is visible
+
+16-11-2025T05:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture' is visible
+
+16-11-2025T05:04:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), pdfPath): File 'C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf' sent to object: 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture'
+
+16-11-2025T05:04:50 - [MESSAGE][PASSED] - File 'C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf' sent to object: 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture'
+
+16-11-2025T05:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress"), currentaddress): Text 'Jl. B' is set on object 'Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+16-11-2025T05:04:51 - [MESSAGE][PASSED] - Text 'Jl. B' is set on object 'Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+16-11-2025T05:04:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:04:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0' is clicked on
+
+16-11-2025T05:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0' is clicked on
+
+16-11-2025T05:04:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:04:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0' is clicked on
+
+16-11-2025T05:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0' is clicked on
+
+16-11-2025T05:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit")): Object: 'Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit' is clicked on
+
+16-11-2025T05:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit' is clicked on
+
+16-11-2025T05:04:53 - [TEST_STEP][PASSED] - verifyTextPresent("Thanks for submitting the form", false): Text 'Thanks for submitting the form' is present on page 
+
+16-11-2025T05:04:54 - [MESSAGE][PASSED] - Text 'Thanks for submitting the form' is present on page 
+
+16-11-2025T05:04:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-11-2025T05:04:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Valid Input DDT" time="22.256" classname="Test Cases/Valid Input DDT" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"currentaddress":"Jl. C","dateofbirth":"30 Mar 1995","firstname":"Puji","gender":"Male","hobbies":"Music","city":"Jaipur","subjects":"English","mobile":"2222222222","state":"Rajasthan","email":"puji@gmail.com","picture":"C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Data Files\\Take Home Test_updated.pdf","lastname":"Susilo"}]]></property>
+         </properties>
+         <system-out><![CDATA[16-11-2025T05:04:54 - [TEST_CASE][PASSED] - Test Cases/Valid Input DDT: Test Cases/Valid Input DDT
+
+16-11-2025T05:04:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-11-2025T05:04:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-11-2025T05:04:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-11-2025T05:04:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-11-2025T05:04:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-11-2025T05:04:55 - [MESSAGE][PASSED] - Current window maximized
+
+16-11-2025T05:04:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+16-11-2025T05:05:01 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+16-11-2025T05:05:01 - [TEST_STEP][PASSED] - verifyTextPresent("Practice Form", false): Text 'Practice Form' is present on page 
+
+16-11-2025T05:05:02 - [MESSAGE][PASSED] - Text 'Practice Form' is present on page 
+
+16-11-2025T05:05:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName"), firstname): Text 'Puji' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName'
+
+16-11-2025T05:05:03 - [MESSAGE][PASSED] - Text 'Puji' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName'
+
+16-11-2025T05:05:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName"), lastname): Text 'Susilo' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName'
+
+16-11-2025T05:05:03 - [MESSAGE][PASSED] - Text 'Susilo' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName'
+
+16-11-2025T05:05:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail"), email): Text 'puji@gmail.com' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail'
+
+16-11-2025T05:05:04 - [MESSAGE][PASSED] - Text 'puji@gmail.com' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail'
+
+16-11-2025T05:05:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label")): Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label' is clicked on
+
+16-11-2025T05:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label' is clicked on
+
+16-11-2025T05:05:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber"), mobile): Text '2222222222' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+16-11-2025T05:05:05 - [MESSAGE][PASSED] - Text '2222222222' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+16-11-2025T05:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"), dateofbirth): Text '30 Mar 1995' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput'
+
+16-11-2025T05:05:06 - [MESSAGE][PASSED] - Text '30 Mar 1995' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput'
+
+16-11-2025T05:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput")): Object: 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput' is clicked on
+
+16-11-2025T05:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput' is clicked on
+
+16-11-2025T05:05:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3"), "9", true): All options with value '9' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3'  using regular expression
+
+16-11-2025T05:05:07 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3'  using regular expression
+
+16-11-2025T05:05:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select"), "1998", true): All options with value '1998' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select'  using regular expression
+
+16-11-2025T05:05:09 - [MESSAGE][PASSED] - All options with value '1998' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select'  using regular expression
+
+16-11-2025T05:05:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc' is clicked on
+
+16-11-2025T05:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc' is clicked on
+
+16-11-2025T05:05:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf' is clicked on
+
+16-11-2025T05:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf' is clicked on
+
+16-11-2025T05:05:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput"), "a"): Text 'a' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput'
+
+16-11-2025T05:05:11 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput'
+
+16-11-2025T05:05:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1' is clicked on
+
+16-11-2025T05:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1' is clicked on
+
+16-11-2025T05:05:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label")): Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label' is clicked on
+
+16-11-2025T05:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label' is clicked on
+
+16-11-2025T05:05:12 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+16-11-2025T05:05:12 - [TEST_STEP][PASSED] - pdfPath = projectDir + "/Data Files/Take Home Test_updated.pdf": null
+
+16-11-2025T05:05:12 - [TEST_STEP][PASSED] - println("PDF PATH = " + pdfPath): null
+
+16-11-2025T05:05:12 - [TEST_STEP][PASSED] - assert File(pdfPath).exists(): null
+
+16-11-2025T05:05:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), 10): Object 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture' is visible
+
+16-11-2025T05:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture' is visible
+
+16-11-2025T05:05:12 - [TEST_STEP][PASSED] - uploadFile(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), pdfPath): File 'C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf' sent to object: 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture'
+
+16-11-2025T05:05:13 - [MESSAGE][PASSED] - File 'C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf' sent to object: 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture'
+
+16-11-2025T05:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress"), currentaddress): Text 'Jl. C' is set on object 'Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+16-11-2025T05:05:13 - [MESSAGE][PASSED] - Text 'Jl. C' is set on object 'Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+16-11-2025T05:05:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:05:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0' is clicked on
+
+16-11-2025T05:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0' is clicked on
+
+16-11-2025T05:05:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0' is clicked on
+
+16-11-2025T05:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0' is clicked on
+
+16-11-2025T05:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit")): Object: 'Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit' is clicked on
+
+16-11-2025T05:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit' is clicked on
+
+16-11-2025T05:05:16 - [TEST_STEP][PASSED] - verifyTextPresent("Thanks for submitting the form", false): Text 'Thanks for submitting the form' is present on page 
+
+16-11-2025T05:05:16 - [MESSAGE][PASSED] - Text 'Thanks for submitting the form' is present on page 
+
+16-11-2025T05:05:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-11-2025T05:05:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Valid Input DDT" time="42.555" classname="Test Cases/Valid Input DDT" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"currentaddress":"Jl. D","dateofbirth":"14 Jun 1990","firstname":"Susan","gender":"Female","hobbies":"Sports","city":"Noida","subjects":"Accounting","mobile":"3333333333","state":"NCR","email":"susan@gmail.com","picture":"C:\\Users\\Prima_Hutapea\\Katalon Studio\\demoqa.com\\Data Files\\Take Home Test_updated.pdf","lastname":"Jaya"}]]></property>
+         </properties>
+         <system-out><![CDATA[16-11-2025T05:05:17 - [TEST_CASE][PASSED] - Test Cases/Valid Input DDT: Test Cases/Valid Input DDT
+
+16-11-2025T05:05:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-11-2025T05:05:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-11-2025T05:05:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-11-2025T05:05:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-11-2025T05:05:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-11-2025T05:05:18 - [MESSAGE][PASSED] - Current window maximized
+
+16-11-2025T05:05:18 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+16-11-2025T05:05:44 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+16-11-2025T05:05:44 - [TEST_STEP][PASSED] - verifyTextPresent("Practice Form", false): Text 'Practice Form' is present on page 
+
+16-11-2025T05:05:45 - [MESSAGE][PASSED] - Text 'Practice Form' is present on page 
+
+16-11-2025T05:05:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName"), firstname): Text 'Susan' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName'
+
+16-11-2025T05:05:45 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_firstName'
+
+16-11-2025T05:05:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName"), lastname): Text 'Jaya' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName'
+
+16-11-2025T05:05:46 - [MESSAGE][PASSED] - Text 'Jaya' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Name_lastName'
+
+16-11-2025T05:05:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail"), email): Text 'susan@gmail.com' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail'
+
+16-11-2025T05:05:47 - [MESSAGE][PASSED] - Text 'susan@gmail.com' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Email_userEmail'
+
+16-11-2025T05:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label")): Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label' is clicked on
+
+16-11-2025T05:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Gender_custom-control-label' is clicked on
+
+16-11-2025T05:05:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber"), mobile): Text '3333333333' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+16-11-2025T05:05:48 - [MESSAGE][PASSED] - Text '3333333333' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+16-11-2025T05:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput"), dateofbirth): Text '14 Jun 1990' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput'
+
+16-11-2025T05:05:49 - [MESSAGE][PASSED] - Text '14 Jun 1990' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput'
+
+16-11-2025T05:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput")): Object: 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput' is clicked on
+
+16-11-2025T05:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/input_Date of Birth_dateOfBirthInput' is clicked on
+
+16-11-2025T05:05:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3"), "9", true): All options with value '9' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3'  using regular expression
+
+16-11-2025T05:05:50 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_November 2025_react-datepicker__mont_4b2ba3'  using regular expression
+
+16-11-2025T05:05:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select"), "1998", true): All options with value '1998' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select'  using regular expression
+
+16-11-2025T05:05:52 - [MESSAGE][PASSED] - All options with value '1998' are selected in object 'Object Repository/valid input 1/Page_DEMOQA/select_October 2025_react-datepicker__year-select'  using regular expression
+
+16-11-2025T05:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc' is clicked on
+
+16-11-2025T05:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Sa_react-datepicker__day react-datepick_cb92dc' is clicked on
+
+16-11-2025T05:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf' is clicked on
+
+16-11-2025T05:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf' is clicked on
+
+16-11-2025T05:05:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput"), "a"): Text 'a' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput'
+
+16-11-2025T05:05:54 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/valid input 1/Page_DEMOQA/input_Subjects_subjectsInput'
+
+16-11-2025T05:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1' is clicked on
+
+16-11-2025T05:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Maths_react-select-2-option-1' is clicked on
+
+16-11-2025T05:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label")): Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label' is clicked on
+
+16-11-2025T05:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/label_Hobbies_custom-control-label' is clicked on
+
+16-11-2025T05:05:55 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+16-11-2025T05:05:55 - [TEST_STEP][PASSED] - pdfPath = projectDir + "/Data Files/Take Home Test_updated.pdf": null
+
+16-11-2025T05:05:55 - [TEST_STEP][PASSED] - println("PDF PATH = " + pdfPath): null
+
+16-11-2025T05:05:55 - [TEST_STEP][PASSED] - assert File(pdfPath).exists(): null
+
+16-11-2025T05:05:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), 10): Object 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture' is visible
+
+16-11-2025T05:05:55 - [MESSAGE][PASSED] - Object 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture' is visible
+
+16-11-2025T05:05:55 - [TEST_STEP][PASSED] - uploadFile(findTestObject("valid input 1/Page_DEMOQA/input_Select picture_uploadPicture"), pdfPath): File 'C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf' sent to object: 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture'
+
+16-11-2025T05:05:55 - [MESSAGE][PASSED] - File 'C:/Users/Prima_Hutapea/Katalon Studio/demoqa.com/Data Files/Take Home Test_updated.pdf' sent to object: 'Object Repository/valid input 1/Page_DEMOQA/input_Select picture_uploadPicture'
+
+16-11-2025T05:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress"), currentaddress): Text 'Jl. D' is set on object 'Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+16-11-2025T05:05:56 - [MESSAGE][PASSED] - Text 'Jl. D' is set on object 'Object Repository/valid input 1/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+16-11-2025T05:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0' is clicked on
+
+16-11-2025T05:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select State_react-select-3-option-0' is clicked on
+
+16-11-2025T05:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_css-1gtu0rj-indicatorContainer' is clicked on
+
+16-11-2025T05:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0")): Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0' is clicked on
+
+16-11-2025T05:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/div_Select City_react-select-4-option-0' is clicked on
+
+16-11-2025T05:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit")): Object: 'Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit' is clicked on
+
+16-11-2025T05:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/valid input 1/Page_DEMOQA/button_Delhi_submit' is clicked on
+
+16-11-2025T05:05:59 - [TEST_STEP][PASSED] - verifyTextPresent("Thanks for submitting the form", false): Text 'Thanks for submitting the form' is present on page 
+
+16-11-2025T05:05:59 - [MESSAGE][PASSED] - Text 'Thanks for submitting the form' is present on page 
+
+16-11-2025T05:05:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-11-2025T05:05:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-11-2025T05:03:42 - [TEST_SUITE][PASSED] - DDT demoqa: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
